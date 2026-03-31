@@ -1,16 +1,16 @@
 export default function MatsuokaLabHomepage() {
   const principles = [
     {
-      title: "責任の所在を曖昧にしない",
-      text: "誰が判断し、誰が実行し、誰が責任を持つのかを明確にします。支援と責任は分けて考えます。",
+      title: "見かけではなく、本質的な成長を重視する",
+      text: "表面的な整い方や一時的な成果ではなく、思考・理解・改善の積み重ねを大切にします。",
     },
     {
-      title: "失敗は許される、学ばないことは許されない",
-      text: "失敗は挑戦の一部です。ただし、振り返り、改善し、次に活かすことを重視します。",
+      title: "失敗を恐れず、学びに変える",
+      text: "失敗そのものを問題にするのではなく、振り返り、改善し、次の成長につなげることを重視します。",
     },
     {
-      title: "見かけではなく本質を育てる",
-      text: "表面的な整い方ではなく、理解・思考・改善・継続の積み重ねを重視します。",
+      title: "自分で考え、自分の道を切り開く",
+      text: "正解を待つのではなく、自ら考え、選び、よりよい答えに近づきながら前に進む姿勢を大切にします。",
     },
   ];
 
@@ -18,7 +18,7 @@ export default function MatsuokaLabHomepage() {
     {
       title: "理念",
       items: [
-        "自分で考え、根拠をもって判断する力を育てる",
+        "自分で考え、判断し、人生や進路を切り開く力を育てる",
         "失敗から学びながら、自立して前に進める力を育てる",
         "生成AIは思考の代行ではなく、思考補助として活用する",
       ],
@@ -29,14 +29,14 @@ export default function MatsuokaLabHomepage() {
         "自立支援型指導",
         "段階的成長を重視した教育設計",
         "成果だけでなく過程も見る評価方針",
-        "責任分離型の運営",
+        "人としての成長を支える研究室運営",
       ],
     },
     {
       title: "役割",
       items: [
-        "教員：方向性・判断基準・最終判断を担う",
-        "学生：整理・提案・実行・説明に責任を持つ",
+        "教員：方向性・判断基準・成長の支援を担う",
+        "学生：整理・提案・実行・説明を通して自ら成長する",
         "支援者：初期整理や日常的助言を補助する",
       ],
     },
@@ -48,16 +48,16 @@ export default function MatsuokaLabHomepage() {
         "調査・理解力",
         "改善力",
         "表現力",
-        "責任感・継続力",
+        "継続的に学ぶ姿勢",
       ],
     },
     {
-      title: "運用ルール",
+      title: "運用方針",
       items: [
-        "丸投げを前提とした相談はしない",
+        "受け身ではなく、自分の考えを持って取り組む",
         "相談時は現状・課題・自分の考えを整理する",
-        "フィードバックには必ず応答する",
-        "重要事項は曖昧なままチャットで決めない",
+        "フィードバックを学びに変え、次につなげる",
+        "重要な判断は曖昧なまま進めない",
       ],
     },
   ];
@@ -67,22 +67,22 @@ export default function MatsuokaLabHomepage() {
     "失敗しても立ち直り、改善できる人",
     "事実と意見を分けて考えられる人",
     "自分の言葉で説明できる人",
-    "責任を持って行動できる人",
-    "他者と建設的に関われる人",
+    "自分の人生や進路を切り開ける人",
+    "社会に出たあとも学び続けられる人",
   ];
 
   const features = [
     {
-      title: "Research Mindset",
-      text: "問いを立て、調べ、試し、失敗し、改善する。この循環を通して研究者としての土台を育てます。",
+      title: "Human Growth Through Research",
+      text: "研究を通して、知識や技術だけでなく、自立した思考力と学び続ける姿勢を育てます。",
     },
     {
       title: "Practical Independence",
-      text: "教員がすべてを与えるのではなく、自分で整理し、判断し、進める力を身につけます。",
+      text: "教員がすべてを与えるのではなく、自分で整理し、判断し、前に進む力を身につけます。",
     },
     {
-      title: "Responsible Use of AI",
-      text: "生成AIを活用しつつも、最終的な理解・判断・説明責任は人が持つという姿勢を徹底します。",
+      title: "Challenge Beyond the Lab",
+      text: "学会発表や国際会議発表など、高い目標への挑戦を通して、自分の考えを社会に向けて発信する力も育てます。",
     },
   ];
 
@@ -106,10 +106,10 @@ export default function MatsuokaLabHomepage() {
   ];
 
   const joinPoints = [
-    "受け身ではなく、自分で考えながら取り組みたい人",
-    "失敗を恐れず、改善を重ねたい人",
-    "AIやツールを使っても、自分の理解と責任を大切にしたい人",
-    "見かけの成果ではなく、本質的な成長を求める人",
+    "受け身ではなく、自分で考えながら成長したい人",
+    "よりよい答えを探しながら、試行錯誤できる人",
+    "失敗を恐れず、学びに変えて前に進みたい人",
+    "学会発表や国際会議発表など、高い目標にも挑戦してみたい人",
   ];
 
   const processSteps = [
@@ -121,7 +121,7 @@ export default function MatsuokaLabHomepage() {
     {
       step: "02",
       title: "考える",
-      text: "自分なりの仮説や案を持って相談する。",
+      text: "自分なりの仮説や案を持って考える。",
     },
     {
       step: "03",
@@ -130,8 +130,8 @@ export default function MatsuokaLabHomepage() {
     },
     {
       step: "04",
-      title: "改善する",
-      text: "失敗や指摘を振り返り、次の行動に活かす。",
+      title: "学び続ける",
+      text: "失敗や指摘を振り返り、よりよい答えに近づきながら成長する。",
     },
   ];
 
@@ -168,22 +168,24 @@ export default function MatsuokaLabHomepage() {
               <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-6xl">
                 自分で考え、
                 <br />
-                失敗から学び、
+                自分の道を切り開き、
                 <br />
-                自立して前に進める人を育てる。
+                学び続ける人へ。
               </h1>
               <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 md:text-lg">
-                松岡研究室は、表面的な成果の量だけを競う場ではありません。問いを立て、調べ、試し、失敗し、改善し、
-                自分の言葉で説明できる力を育てる研究室です。
+                松岡研究室は、知識や技術を身につけることだけを目的とする場ではありません。
+                研究を通して、自分で考え、自分の道を切り開き、社会に出たあとも学び続けられる人として成長することを大切にしています。
               </p>
             </div>
             <div className="grid gap-4">
               <div className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl">
                 <div className="text-sm text-slate-300">Core Message</div>
                 <div className="mt-3 text-2xl font-semibold leading-snug">
-                  責任の所在を曖昧にしない。
+                  自ら考え、
                   <br />
-                  失敗を学びに変える。
+                  自ら切り開き、
+                  <br />
+                  学び続ける。
                 </div>
               </div>
             </div>
@@ -199,12 +201,13 @@ export default function MatsuokaLabHomepage() {
           </div>
           <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200">
             <p className="text-base leading-8 text-slate-700">
-              研究や開発では、最初から正解が見えているとは限りません。だからこそ松岡研究室では、
-              誰かに与えられた答えをなぞるのではなく、自分で状況を整理し、考え、試し、振り返り、改善する力を重視します。
+              松岡研究室が大切にしているのは、研究を通して知識や技術を身につけることだけではありません。
+              社会に出たあとも、自分で考え、自分の道を切り開き、学び続けられる人として成長することを重視しています。
             </p>
             <p className="mt-5 text-base leading-8 text-slate-700">
-              生成AIや各種ツールも活用しますが、それらは思考の代行ではなく補助です。最終的に何を判断し、どう説明し、
-              その結果に誰が責任を持つのかを曖昧にしないことを、研究室運営の基本に置いています。
+              そのため本研究室では、正解を待つのではなく、自分で状況を整理し、考え、試し、振り返りながら、
+              よりよい答えに近づいていく姿勢を大切にしています。また、研究への挑戦を深める中で、
+              学会発表や国際会議発表を目指す学生もいます。高い目標に挑戦する経験もまた、大きな成長につながると考えています。
             </p>
           </div>
         </div>
@@ -214,7 +217,7 @@ export default function MatsuokaLabHomepage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10">
             <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">PRINCIPLES</div>
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">中核となる原則</h2>
+            <h2 className="mt-4 text-3xl font-bold md:text-4xl">中核となる考え方</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-3">
             {principles.map((item) => (
@@ -275,8 +278,8 @@ export default function MatsuokaLabHomepage() {
               私は、学生が最初から完璧であることよりも、自分で考え、試し、失敗し、その経験を次に活かせるようになることを大切にしています。
             </p>
             <p className="mt-5 text-base leading-8 text-slate-300">
-              そのため、松岡研究室では、支援は行っても責任を曖昧にしません。見かけだけ整った成果ではなく、理解・思考・改善の伴った成長を重視します。
-              将来どの道に進んでも、自分の力で前に進める人になってほしいと考えています。
+              また、社会に出たあとも、自分で考え、自分の人生や進路を切り開き、学び続けられる人になってほしいと考えています。
+              その延長として、学会発表や国際会議発表など、高い目標に挑戦する経験も大きな成長につながると考えています。
             </p>
           </div>
           <div className="rounded-[2rem] bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
@@ -301,7 +304,7 @@ export default function MatsuokaLabHomepage() {
         <div className="mx-auto max-w-7xl px-6">
           <div className="mb-10">
             <div className="text-sm font-semibold tracking-[0.2em] text-slate-400">SYSTEM</div>
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">研究室の設計</h2>
+            <h2 className="mt-4 text-3xl font-bold md:text-4xl">研究室の考え方と設計</h2>
           </div>
           <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-5">
             {systemItems.map((section) => (
@@ -326,7 +329,8 @@ export default function MatsuokaLabHomepage() {
             <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">VISION</div>
             <h2 className="mt-4 text-3xl font-bold md:text-4xl">活動を終えたときの到達イメージ</h2>
             <p className="mt-5 text-base leading-8 text-slate-600">
-              この研究室で得てほしいのは、単なる知識や技術だけではありません。どの進路に進んでも通用する、考える力、改善する力、伝える力、責任を持つ力です。
+              この研究室で得てほしいのは、単なる知識や技術だけではありません。
+              社会に出たあとも、自分で考え、自分の人生や進路を切り開き、学び続けていける力です。
             </p>
           </div>
           <div className="grid gap-4">
@@ -376,11 +380,11 @@ export default function MatsuokaLabHomepage() {
               <h2 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
                 見かけの完成度ではなく、
                 <br />
-                中身のある成長を重視する研究室へ。
+                人としての成長を重視する研究室へ。
               </h2>
               <p className="mt-6 text-base leading-8 text-slate-300">
-                松岡研究室は、自分で考え、自分の言葉で説明し、自分の責任で前に進める人を育てることを目指します。
-                挑戦を歓迎し、失敗を責めず、しかし学びのない停滞は許さない。その姿勢を研究室全体で共有します。
+                松岡研究室は、自分で考え、自分の道を切り開き、社会に出たあとも学び続けられる人を育てることを目指します。
+                その延長として、学会発表や国際会議発表など、高い目標への挑戦も支える研究室です。
               </p>
             </div>
           </div>
