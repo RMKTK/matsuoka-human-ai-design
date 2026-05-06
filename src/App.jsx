@@ -82,8 +82,8 @@ export default function MatsuokaLabSite() {
           <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-slate-500">Human-AI Design</p>
           <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-6xl">
             AI時代における<br />
-            <span className="text-slate-600">人・学び・技術</span>の関係を<br />
-            デザインする。
+            <span className="text-slate-600">人・学び・技術</span><br />
+            の関係をデザインする。
           </h1>
           <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
             Matsuoka Lab は，生成AI，画像AI，データ活用，STEAM教育，研究開発支援を通して，
