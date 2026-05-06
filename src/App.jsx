@@ -1,405 +1,251 @@
-export default function MatsuokaLabHomepage() {
-  const principles = [
+export default function MatsuokaLabSite() {
+  const services = [
     {
-      title: "見かけではなく、本質的な成長を重視する",
-      text: "表面的な整い方や一時的な成果ではなく、思考・理解・改善の積み重ねを大切にします。",
+      title: "AI活用・技術相談",
+      text: "生成AI，画像AI，データ活用，業務改善などについて，目的整理から実装方針まで支援します。",
     },
     {
-      title: "失敗を恐れず、学びに変える",
-      text: "失敗そのものを問題にするのではなく、振り返り、改善し、次の成長につなげることを重視します。",
+      title: "研修・セミナー",
+      text: "学校，自治体，企業向けに，生成AI活用，AIリテラシー，STEAM教育，DX人材育成に関する研修を行います。",
     },
     {
-      title: "自分で考え、自分の道を切り開く",
-      text: "正解を待つのではなく、自ら考え、選び、よりよい答えに近づきながら前に進む姿勢を大切にします。",
-    },
-  ];
-
-  const systemItems = [
-    {
-      title: "理念",
-      items: [
-        "自分で考え、判断し、人生や進路を切り開く力を育てる",
-        "失敗から学びながら、自立して前に進める力を育てる",
-        "生成AIは思考の代行ではなく、思考補助として活用する",
-      ],
+      title: "教育・探究活動支援",
+      text: "AI時代の学び，探究活動，高大連携，STEAM教育プログラムの設計を支援します。",
     },
     {
-      title: "制度",
-      items: [
-        "自立支援型指導",
-        "段階的成長を重視した教育設計",
-        "成果だけでなく過程も見る評価方針",
-        "人としての成長を支える研究室運営",
-      ],
-    },
-    {
-      title: "役割",
-      items: [
-        "教員：方向性・判断基準・成長の支援を担う",
-        "学生：整理・提案・実行・説明を通して自ら成長する",
-        "支援者：初期整理や日常的助言を補助する",
-      ],
-    },
-    {
-      title: "評価",
-      items: [
-        "主体性",
-        "思考力",
-        "調査・理解力",
-        "改善力",
-        "表現力",
-        "継続的に学ぶ姿勢",
-      ],
-    },
-    {
-      title: "運用方針",
-      items: [
-        "受け身ではなく、自分の考えを持って取り組む",
-        "相談時は現状・課題・自分の考えを整理する",
-        "フィードバックを学びに変え、次につなげる",
-        "重要な判断は曖昧なまま進めない",
-      ],
+      title: "研究開発・PoC支援",
+      text: "画像処理，信号処理，衛星画像解析，AIモデル活用など，研究開発初期の技術検討を支援します。",
     },
   ];
 
-  const visionItems = [
-    "自分で考えて動ける人",
-    "失敗しても立ち直り、改善できる人",
-    "事実と意見を分けて考えられる人",
-    "自分の言葉で説明できる人",
-    "自分の人生や進路を切り開ける人",
-    "社会に出たあとも学び続けられる人",
+  const audiences = [
+    "学校・教育機関",
+    "自治体・教育委員会",
+    "中小企業・地域企業",
+    "研究開発部門",
+    "学童・STEAM教育団体",
+    "生成AI活用を検討する組織",
   ];
 
-  const features = [
+  const menus = [
     {
-      title: "Human Growth Through Research",
-      text: "研究を通して、知識や技術だけでなく、自立した思考力と学び続ける姿勢を育てます。",
+      title: "初回相談",
+      price: "オンライン 60分",
+      text: "AI活用，研修，技術相談，教育プログラムなどについて，課題整理と方向性の確認を行います。",
     },
     {
-      title: "Practical Independence",
-      text: "教員がすべてを与えるのではなく、自分で整理し、判断し、前に進む力を身につけます。",
+      title: "研修・講演",
+      price: "半日〜1日程度",
+      text: "生成AI，AIリテラシー，STEAM教育，画像AI，データ活用など，対象者に合わせて内容を設計します。",
     },
     {
-      title: "Challenge Beyond the Lab",
-      text: "学会発表や国際会議発表など、高い目標への挑戦を通して、自分の考えを社会に向けて発信する力も育てます。",
-    },
-  ];
-
-  const researchThemes = [
-    {
-      title: "画像・信号処理",
-      text: "画像復元、異常検知、セグメンテーション、最適化ベースの信号処理などを扱います。",
+      title: "技術アドバイス",
+      price: "単発・継続相談",
+      text: "AI導入，画像解析，データ分析，PoC設計，研究開発テーマの整理などを支援します。",
     },
     {
-      title: "AI・深層学習",
-      text: "深層学習や生成AIを活用し、画像解析や時系列解析に応用します。",
-    },
-    {
-      title: "リモートセンシング",
-      text: "衛星画像やマルチモーダルデータを用いた環境・農業・災害分野への応用を検討します。",
-    },
-    {
-      title: "実社会応用",
-      text: "製造、医療・福祉、教育支援など、社会課題につながるテーマを重視します。",
+      title: "顧問・伴走支援",
+      price: "月次相談",
+      text: "AI活用や教育DX，技術戦略について，継続的に相談できる外部アドバイザーとして支援します。",
     },
   ];
 
-  const joinPoints = [
-    "受け身ではなく、自分で考えながら成長したい人",
-    "よりよい答えを探しながら、試行錯誤できる人",
-    "失敗を恐れず、学びに変えて前に進みたい人",
-    "学会発表や国際会議発表など、高い目標にも挑戦してみたい人",
-  ];
-
-  const processSteps = [
-    {
-      step: "01",
-      title: "整理する",
-      text: "現状・課題・分からない点を言語化する。",
-    },
-    {
-      step: "02",
-      title: "考える",
-      text: "自分なりの仮説や案を持って考える。",
-    },
-    {
-      step: "03",
-      title: "試す",
-      text: "実装・実験・検証を通して仮説を確かめる。",
-    },
-    {
-      step: "04",
-      title: "学び続ける",
-      text: "失敗や指摘を振り返り、よりよい答えに近づきながら成長する。",
-    },
+  const steps = [
+    "お問い合わせ・相談内容の共有",
+    "目的・課題・対象者の整理",
+    "支援内容・実施方法の確認",
+    "必要に応じた兼業手続き等の確認",
+    "研修・相談・技術支援の実施",
   ];
 
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
-      <header className="sticky top-0 z-20 border-b border-slate-200 bg-white/90 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+    <main className="min-h-screen bg-slate-50 text-slate-900">
+      <header className="sticky top-0 z-50 border-b border-slate-200 bg-white/85 backdrop-blur">
+        <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
           <div>
-            <div className="text-xs tracking-[0.25em] text-slate-500">MATSUOKA LABORATORY</div>
-            <div className="text-lg font-semibold">松岡研究室</div>
+            <div className="text-lg font-semibold tracking-tight">Matsuoka Lab</div>
+            <div className="text-xs uppercase tracking-[0.25em] text-slate-500">Human-AI Design</div>
           </div>
           <nav className="hidden gap-6 text-sm text-slate-600 md:flex">
-            <a href="#message" className="hover:text-slate-900">Message</a>
-            <a href="#principles" className="hover:text-slate-900">Principles</a>
-            <a href="#research" className="hover:text-slate-900">Research</a>
-            <a href="#system" className="hover:text-slate-900">System</a>
-            <a href="#vision" className="hover:text-slate-900">Vision</a>
-            <a href="#join" className="hover:text-slate-900">Join</a>
+            <a href="#message" className="hover:text-slate-950">Message</a>
+            <a href="#services" className="hover:text-slate-950">Services</a>
+            <a href="#menu" className="hover:text-slate-950">Menu</a>
+            <a href="#flow" className="hover:text-slate-950">Flow</a>
+            <a href="#profile" className="hover:text-slate-950">Profile</a>
+            <a href="#contact" className="hover:text-slate-950">Contact</a>
           </nav>
         </div>
       </header>
 
-      <section className="relative overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-800 text-white">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute -left-16 top-16 h-72 w-72 rounded-full bg-cyan-400 blur-3xl" />
-          <div className="absolute bottom-0 right-0 h-80 w-80 rounded-full bg-indigo-500 blur-3xl" />
+      <section className="mx-auto grid max-w-6xl gap-10 px-6 pb-20 pt-20 md:grid-cols-[1.1fr_0.9fr] md:pt-28">
+        <div className="flex flex-col justify-center">
+          <p className="mb-4 text-sm font-medium uppercase tracking-[0.3em] text-slate-500">Human-AI Design</p>
+          <h1 className="text-4xl font-bold leading-tight tracking-tight md:text-6xl">
+            AI時代における<br />
+            <span className="text-slate-600">人・学び・技術</span>の関係を<br />
+            デザインする。
+          </h1>
+          <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
+            Matsuoka Lab は，生成AI，画像AI，データ活用，STEAM教育，研究開発支援を通して，
+            学校・自治体・企業のAI活用と人材育成を支援する個人活動の窓口です。
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a href="#contact" className="rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-slate-700">
+              相談する
+            </a>
+            <a href="#services" className="rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-100">
+              できることを見る
+            </a>
+          </div>
         </div>
-        <div className="relative mx-auto max-w-7xl px-6 py-24 md:py-32">
-          <div className="grid gap-12 md:grid-cols-[1.3fr_0.7fr] md:items-end">
-            <div>
-              <div className="mb-4 inline-flex rounded-full border border-white/20 px-4 py-1 text-xs tracking-[0.2em] text-slate-200">
-                Laboratory Policy & Identity
-              </div>
-              <h1 className="max-w-4xl text-4xl font-bold leading-tight md:text-6xl">
-                自分で考え、
-                <br />
-                自分の道を切り開き、
-                <br />
-                学び続ける人へ。
-              </h1>
-              <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 md:text-lg">
-                松岡研究室は、知識や技術を身につけることだけを目的とする場ではありません。
-                研究を通して、自分で考え、自分の道を切り開き、社会に出たあとも学び続けられる人として成長することを大切にしています。
-              </p>
-            </div>
-            <div className="grid gap-4">
-              <div className="rounded-3xl border border-white/10 bg-white/5 p-6 shadow-2xl">
-                <div className="text-sm text-slate-300">Core Message</div>
-                <div className="mt-3 text-2xl font-semibold leading-snug">
-                  自ら考え、
-                  <br />
-                  自ら切り開き、
-                  <br />
-                  学び続ける。
+
+        <div className="rounded-[2rem] border border-slate-200 bg-white p-8 shadow-sm">
+          <div className="rounded-[1.5rem] bg-slate-100 p-8">
+            <p className="text-sm font-semibold text-slate-500">Concept</p>
+            <p className="mt-4 text-2xl font-semibold leading-relaxed">
+              AIを導入するだけでなく，<br />
+              人がどう学び，考え，活用するかまで設計する。
+            </p>
+            <p className="mt-6 leading-7 text-slate-600">
+              技術だけではなく，教育・研究・社会実装をつなぎ，
+              AIを現場で意味ある形にするための支援を行います。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="message" className="bg-white py-20">
+        <div className="mx-auto max-w-4xl px-6">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Message</p>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">AIを「使う」から，「活かす」へ。</h2>
+          <div className="mt-8 space-y-5 text-lg leading-9 text-slate-650">
+            <p>
+              生成AIの普及により，誰もがAIを使える時代になりました。一方で，AIをどのように学びに取り入れるか，
+              どの業務や研究に活かすか，どこから始めればよいかに悩む現場も増えています。
+            </p>
+            <p>
+              Matsuoka Lab では，大学教員・AI研究者としての知見をもとに，教育，研究，技術活用を横断しながら，
+              人とAIがより良く協働するための設計を支援します。
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" className="py-20">
+        <div className="mx-auto max-w-6xl px-6">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Services</p>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">できること</h2>
+          <div className="mt-10 grid gap-5 md:grid-cols-2">
+            {services.map((service) => (
+              <article key={service.title} className="rounded-3xl border border-slate-200 bg-white p-7 shadow-sm">
+                <h3 className="text-xl font-bold">{service.title}</h3>
+                <p className="mt-4 leading-7 text-slate-600">{service.text}</p>
+              </article>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="menu" className="bg-white py-20">
+        <div className="mx-auto max-w-6xl px-6">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Menu</p>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">相談メニュー</h2>
+          <p className="mt-6 max-w-3xl leading-8 text-slate-600">
+            内容や規模に応じて，単発相談，研修・講演，技術アドバイス，継続的な伴走支援に対応します。
+            まずは目的や課題を整理したうえで，適切な支援方法を提案します。
+          </p>
+          <div className="mt-10 grid gap-5 md:grid-cols-2">
+            {menus.map((menu) => (
+              <article key={menu.title} className="rounded-3xl border border-slate-200 bg-slate-50 p-7">
+                <div className="flex items-start justify-between gap-4">
+                  <h3 className="text-xl font-bold">{menu.title}</h3>
+                  <span className="rounded-full bg-white px-4 py-2 text-xs font-semibold text-slate-500">{menu.price}</span>
                 </div>
-              </div>
-            </div>
+                <p className="mt-4 leading-7 text-slate-600">{menu.text}</p>
+              </article>
+            ))}
           </div>
         </div>
       </section>
 
-      <section id="message" className="mx-auto max-w-7xl px-6 py-20">
-        <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr] md:items-start">
-          <div>
-            <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">MESSAGE</div>
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">研究室が大切にしていること</h2>
-          </div>
-          <div className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200">
-            <p className="text-base leading-8 text-slate-700">
-              松岡研究室が大切にしているのは、研究を通して知識や技術を身につけることだけではありません。
-              社会に出たあとも、自分で考え、自分の道を切り開き、学び続けられる人として成長することを重視しています。
-            </p>
-            <p className="mt-5 text-base leading-8 text-slate-700">
-              そのため本研究室では、正解を待つのではなく、自分で状況を整理し、考え、試し、振り返りながら、
-              よりよい答えに近づいていく姿勢を大切にしています。また、研究への挑戦を深める中で、
-              学会発表や国際会議発表を目指す学生もいます。高い目標に挑戦する経験もまた、大きな成長につながると考えています。
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section id="principles" className="bg-white py-20">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mb-10">
-            <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">PRINCIPLES</div>
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">中核となる考え方</h2>
-          </div>
-          <div className="grid gap-6 md:grid-cols-3">
-            {principles.map((item) => (
-              <div key={item.title} className="rounded-[2rem] bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200">
-                <div className="text-xl font-semibold leading-snug">{item.title}</div>
-                <p className="mt-4 text-sm leading-7 text-slate-600">{item.text}</p>
+      <section id="flow" className="py-20">
+        <div className="mx-auto max-w-6xl px-6">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Flow</p>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">ご相談の流れ</h2>
+          <div className="mt-10 grid gap-4 md:grid-cols-5">
+            {steps.map((step, index) => (
+              <div key={step} className="rounded-3xl border border-slate-200 bg-white p-6 shadow-sm">
+                <div className="mb-4 flex h-10 w-10 items-center justify-center rounded-full bg-slate-900 text-sm font-bold text-white">
+                  {index + 1}
+                </div>
+                <p className="font-semibold leading-7 text-slate-700">{step}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 py-20">
-        <div className="mb-10">
-          <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">FEATURES</div>
-          <h2 className="mt-4 text-3xl font-bold md:text-4xl">研究室の特徴</h2>
-        </div>
-        <div className="grid gap-6 md:grid-cols-3">
-          {features.map((item) => (
-            <div key={item.title} className="rounded-[2rem] bg-white p-8 shadow-sm ring-1 ring-slate-200">
-              <div className="text-xs tracking-[0.2em] text-slate-400">{item.title}</div>
-              <p className="mt-4 text-base leading-8 text-slate-700">{item.text}</p>
-            </div>
-          ))}
-        </div>
-      </section>
-
-      <section id="research" className="bg-white py-20">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="grid gap-10 md:grid-cols-[0.85fr_1.15fr] md:items-start">
-            <div>
-              <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">RESEARCH</div>
-              <h2 className="mt-4 text-3xl font-bold md:text-4xl">研究内容</h2>
-              <p className="mt-5 text-base leading-8 text-slate-600">
-                松岡研究室では、画像処理・信号処理・AIを基盤としながら、基礎研究と社会応用の両方を見据えたテーマに取り組みます。
-                数理的な考え方と実装の両輪で、現実の課題に向き合う研究を重視しています。
-              </p>
-            </div>
-            <div className="grid gap-6 sm:grid-cols-2">
-              {researchThemes.map((item) => (
-                <div key={item.title} className="rounded-[2rem] bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200">
-                  <div className="text-xl font-semibold">{item.title}</div>
-                  <p className="mt-4 text-sm leading-7 text-slate-600">{item.text}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-6 py-20">
-        <div className="grid gap-10 md:grid-cols-[1.05fr_0.95fr]">
-          <div className="rounded-[2rem] bg-slate-950 p-8 text-white shadow-2xl md:p-10">
-            <div className="text-sm font-semibold tracking-[0.2em] text-slate-400">PROFESSOR'S MESSAGE</div>
-            <h2 className="mt-4 text-3xl font-bold leading-tight">教員メッセージ</h2>
-            <p className="mt-6 text-base leading-8 text-slate-300">
-              研究室は、単に成果物を出すためだけの場所ではなく、人が成長するための場でもあると考えています。
-              私は、学生が最初から完璧であることよりも、自分で考え、試し、失敗し、その経験を次に活かせるようになることを大切にしています。
-            </p>
-            <p className="mt-5 text-base leading-8 text-slate-300">
-              また、社会に出たあとも、自分で考え、自分の人生や進路を切り開き、学び続けられる人になってほしいと考えています。
-              その延長として、学会発表や国際会議発表など、高い目標に挑戦する経験も大きな成長につながると考えています。
-            </p>
-          </div>
-          <div className="rounded-[2rem] bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200 md:p-10">
-            <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">PROCESS</div>
-            <h2 className="mt-4 text-3xl font-bold leading-tight">研究室での成長プロセス</h2>
-            <div className="mt-6 space-y-5">
-              {processSteps.map((item) => (
-                <div key={item.step} className="flex gap-4 border-t border-slate-200 pt-5 first:border-t-0 first:pt-0">
-                  <div className="text-sm font-semibold tracking-[0.2em] text-slate-400">{item.step}</div>
-                  <div>
-                    <div className="text-lg font-semibold text-slate-900">{item.title}</div>
-                    <div className="mt-1 text-sm leading-7 text-slate-600">{item.text}</div>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="system" className="bg-slate-950 py-20 text-white">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="mb-10">
-            <div className="text-sm font-semibold tracking-[0.2em] text-slate-400">SYSTEM</div>
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">研究室の考え方と設計</h2>
-          </div>
-          <div className="grid gap-6 md:grid-cols-2 xl:grid-cols-5">
-            {systemItems.map((section) => (
-              <div key={section.title} className="rounded-[2rem] border border-white/10 bg-white/5 p-7">
-                <div className="text-xl font-semibold">{section.title}</div>
-                <ul className="mt-5 space-y-3 text-sm leading-7 text-slate-300">
-                  {section.items.map((item) => (
-                    <li key={item} className="border-t border-white/10 pt-3 first:border-t-0 first:pt-0">
-                      {item}
-                    </li>
-                  ))}
-                </ul>
+      <section className="bg-slate-900 py-20 text-white">
+        <div className="mx-auto max-w-6xl px-6">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">For whom</p>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">対象</h2>
+          <div className="mt-10 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {audiences.map((item) => (
+              <div key={item} className="rounded-2xl border border-white/10 bg-white/5 px-5 py-4 text-slate-100">
+                {item}
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      <section id="vision" className="mx-auto max-w-7xl px-6 py-20">
-        <div className="grid gap-10 md:grid-cols-[0.9fr_1.1fr]">
+      <section id="profile" className="bg-white py-20">
+        <div className="mx-auto grid max-w-6xl gap-10 px-6 md:grid-cols-[0.8fr_1.2fr]">
           <div>
-            <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">VISION</div>
-            <h2 className="mt-4 text-3xl font-bold md:text-4xl">活動を終えたときの到達イメージ</h2>
-            <p className="mt-5 text-base leading-8 text-slate-600">
-              この研究室で得てほしいのは、単なる知識や技術だけではありません。
-              社会に出たあとも、自分で考え、自分の人生や進路を切り開き、学び続けていける力です。
+            <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Profile</p>
+            <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">運営者</h2>
+          </div>
+          <div className="rounded-3xl border border-slate-200 bg-slate-50 p-8">
+            <h3 className="text-2xl font-bold">松岡 諒</h3>
+            <p className="mt-2 text-slate-500">大学教員／AI研究者／Human-AI Design</p>
+            <p className="mt-6 leading-8 text-slate-650">
+              画像処理，信号処理，AI，リモートセンシング，生成AI活用，STEAM教育などを専門とし，
+              教育・研究・社会実装をつなぐ活動に取り組んでいます。
+              学校・自治体・企業向けに，AI活用支援，研修，講演，技術相談を行います。
             </p>
-          </div>
-          <div className="grid gap-4">
-            {visionItems.map((item, index) => (
-              <div key={item} className="flex items-start gap-4 rounded-[1.75rem] bg-white p-6 shadow-sm ring-1 ring-slate-200">
-                <div className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-slate-900 text-sm font-semibold text-white">
-                  {String(index + 1).padStart(2, "0")}
-                </div>
-                <div className="pt-1 text-base leading-7 text-slate-700">{item}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section id="join" className="bg-white py-20">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="grid gap-10 md:grid-cols-[0.95fr_1.05fr]">
-            <div>
-              <div className="text-sm font-semibold tracking-[0.2em] text-slate-500">JOIN US</div>
-              <h2 className="mt-4 text-3xl font-bold md:text-4xl">配属希望者へ</h2>
-              <p className="mt-5 text-base leading-8 text-slate-600">
-                松岡研究室は、手取り足取りすべてを与える場所ではありません。
-                その代わり、自分で考え、挑戦し、成長したい人にとっては、大きく伸びることができる環境です。
-              </p>
-            </div>
-            <div className="rounded-[2rem] bg-slate-50 p-8 shadow-sm ring-1 ring-slate-200">
-              <div className="text-lg font-semibold text-slate-900">このような人を歓迎します</div>
-              <div className="mt-5 space-y-4">
-                {joinPoints.map((item) => (
-                  <div key={item} className="flex items-start gap-3 border-t border-slate-200 pt-4 first:border-t-0 first:pt-0">
-                    <div className="mt-2 h-2.5 w-2.5 rounded-full bg-slate-900" />
-                    <div className="text-sm leading-7 text-slate-700">{item}</div>
-                  </div>
-                ))}
-              </div>
+            <div className="mt-6 flex flex-wrap gap-2 text-sm text-slate-600">
+              <span className="rounded-full bg-white px-4 py-2">生成AI</span>
+              <span className="rounded-full bg-white px-4 py-2">画像AI</span>
+              <span className="rounded-full bg-white px-4 py-2">STEAM教育</span>
+              <span className="rounded-full bg-white px-4 py-2">データ活用</span>
+              <span className="rounded-full bg-white px-4 py-2">研究開発支援</span>
             </div>
           </div>
         </div>
       </section>
 
-      <section className="bg-white py-20">
-        <div className="mx-auto max-w-7xl px-6">
-          <div className="rounded-[2.5rem] bg-gradient-to-r from-slate-900 to-slate-700 px-8 py-12 text-white md:px-12 md:py-16">
-            <div className="max-w-4xl">
-              <div className="text-sm font-semibold tracking-[0.2em] text-slate-300">SUMMARY</div>
-              <h2 className="mt-4 text-3xl font-bold leading-tight md:text-4xl">
-                見かけの完成度ではなく、
-                <br />
-                人としての成長を重視する研究室へ。
-              </h2>
-              <p className="mt-6 text-base leading-8 text-slate-300">
-                松岡研究室は、自分で考え、自分の道を切り開き、社会に出たあとも学び続けられる人を育てることを目指します。
-                その延長として、学会発表や国際会議発表など、高い目標への挑戦も支える研究室です。
-              </p>
-            </div>
-          </div>
+      <section id="contact" className="py-20">
+        <div className="mx-auto max-w-4xl px-6 text-center">
+          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Contact</p>
+          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">ご相談・お問い合わせ</h2>
+          <p className="mx-auto mt-6 max-w-2xl leading-8 text-slate-600">
+            AI活用，研修，講演，技術相談，教育プログラム設計などについて，まずは内容を整理してご相談ください。
+          </p>
+          <a href="mailto:example@example.com" className="mt-8 inline-flex rounded-full bg-slate-900 px-8 py-4 text-sm font-semibold text-white shadow-sm hover:bg-slate-700">
+            メールで問い合わせる
+          </a>
+          <p className="mt-5 text-sm text-slate-500">
+            ※ 所属大学とは別の個人活動として対応する内容については，必要に応じて兼業手続き等を行います。
+          </p>
         </div>
       </section>
 
-      <footer className="border-t border-slate-200 bg-slate-50">
-        <div className="mx-auto flex max-w-7xl flex-col gap-3 px-6 py-8 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
-          <div>
-            <div className="font-semibold text-slate-700">松岡研究室</div>
-            <div>Laboratory Policy Website Prototype</div>
-          </div>
-          <div>© Matsuoka Laboratory</div>
+      <footer className="border-t border-slate-200 bg-white py-8">
+        <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
+          <p>© Matsuoka Lab</p>
+          <p>Human-AI Design</p>
         </div>
       </footer>
-    </div>
+    </main>
   );
 }
