@@ -224,21 +224,51 @@ export default function MatsuokaLabSite() {
         </div>
       </section>
 
-      <section id="contact" className="py-20">
-        <div className="mx-auto max-w-4xl px-6 text-center">
-          <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">Contact</p>
-          <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">ご相談・お問い合わせ</h2>
-          <p className="mx-auto mt-6 max-w-2xl leading-8 text-slate-600">
-            AI活用，研修，講演，技術相談，教育プログラム設計などについて，まずは内容を整理してご相談ください。
-          </p>
-          <a href="mailto:example@example.com" className="mt-8 inline-flex rounded-full bg-slate-900 px-8 py-4 text-sm font-semibold text-white shadow-sm hover:bg-slate-700">
-            メールで問い合わせる
-          </a>
-          <p className="mt-5 text-sm text-slate-500">
-            ※ 所属大学とは別の個人活動として対応する内容については，必要に応じて兼業手続き等を行います。
-          </p>
-        </div>
-      </section>
+<section id="contact" className="py-20">
+  <div className="mx-auto max-w-5xl px-6">
+    <div className="text-center">
+      <p className="text-sm font-semibold uppercase tracking-[0.3em] text-slate-400">
+        Contact
+      </p>
+      <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
+        ご相談・お問い合わせ
+      </h2>
+      <p className="mx-auto mt-6 max-w-2xl leading-8 text-slate-600">
+        AI活用，研修，講演，技術相談，教育プログラム設計などについて，
+        まずは内容を整理してご相談ください。
+      </p>
+    </div>
+
+    <div className="mt-10 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
+      <iframe
+        title="Matsuoka Lab お問い合わせフォーム"
+        src="https://www.instagram.com/p/DKJuvCNpavO/?utm_source=ig_web_button_share_sheet"
+        width="100%"
+        height="1000"
+        frameBorder="0"
+        marginHeight="0"
+        marginWidth="0"
+      >
+        読み込んでいます…
+      </iframe>
+    </div>
+
+    <div className="mt-6 text-center">
+      <a
+        href="Googleフォームの公開URL"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="inline-flex rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-100"
+      >
+        フォームを別タブで開く
+      </a>
+    </div>
+
+    <p className="mt-5 text-center text-sm text-slate-500">
+      ※ 所属大学とは別の個人活動として対応する内容については，必要に応じて兼業手続き等を行います。
+    </p>
+  </div>
+</section>
 
       <footer className="border-t border-slate-200 bg-white py-8">
         <div className="mx-auto flex max-w-6xl flex-col gap-2 px-6 text-sm text-slate-500 md:flex-row md:items-center md:justify-between">
