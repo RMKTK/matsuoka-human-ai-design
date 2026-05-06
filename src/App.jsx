@@ -242,7 +242,7 @@ export default function MatsuokaLabSite() {
     <div className="mt-10 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
       <iframe
         title="Matsuoka Lab お問い合わせフォーム"
-        src="https://www.instagram.com/p/DKJuvCNpavO/?utm_source=ig_web_button_share_sheet?embedded=true"
+        src="https://forms.gle/VNo1W8nKfYCXRBFj8?embedded=true"
         width="100%"
         height="1000"
         frameBorder="0"
@@ -255,7 +255,7 @@ export default function MatsuokaLabSite() {
 
     <div className="mt-6 text-center">
       <a
-        href="https://www.instagram.com/p/DKJuvCNpavO/?utm_source=ig_web_button_share_sheet"
+        href="https://forms.gle/VNo1W8nKfYCXRBFj8"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-100"
