@@ -239,30 +239,14 @@ export default function MatsuokaLabSite() {
       </p>
     </div>
 
-    <div className="mt-10 overflow-hidden rounded-3xl border border-slate-200 bg-white shadow-sm">
-      <iframe
-        title="Matsuoka Lab お問い合わせフォーム"
-        src="https://forms.gle/VNo1W8nKfYCXRBFj8?embedded=true"
-        width="100%"
-        height="1000"
-        frameBorder="0"
-        marginHeight="0"
-        marginWidth="0"
-      >
-        読み込んでいます…
-      </iframe>
-    </div>
-
-    <div className="mt-6 text-center">
-      <a
-        href="https://forms.gle/VNo1W8nKfYCXRBFj8"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-100"
-      >
-        フォームを別タブで開く
-      </a>
-    </div>
+    <a
+      href="https://forms.gle/VNo1W8nKfYCXRBFj8"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex rounded-full border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-800 hover:bg-slate-100"
+    >
+      フォームを別タブで開く
+    </a>
 
     <p className="mt-5 text-center text-sm text-slate-500">
       ※ 所属大学とは別の個人活動として対応する内容については，必要に応じて兼業手続き等を行います。
